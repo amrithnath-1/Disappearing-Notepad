@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notepad-container">
+        <div class="notepad-header">
+            <h1 class="notepad-title">Notepad</h1>
+        </div>
+        
+        <div class="notepad-body">
+            <div 
+                id="notepad-editor" 
+                class="notepad-editor" 
+                contenteditable="true" 
+                data-placeholder="type anything..."
+                spellcheck="false"
+            ></div>
+        </div>
+        
+        <div class="notepad-footer">
+            <div class="character-count">
+                Characters: <span id="char-count">0</span> / 1000
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
