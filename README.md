@@ -1,3 +1,4 @@
+<img width="3188" height="1202" alt="image" src="https://github.com/user-attachments/assets/a9ebcac1-d87c-4fab-98b4-33a5bdd48e87" />
 # Disappearing-Notepad
 A useless notepad where your typed text vanishes as you type.
 
